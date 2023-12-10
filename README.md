@@ -14,3 +14,35 @@ Requirements:
 8. If the user enters a string that does not match one of the arithmetic operations described above, the application displays an error and exits.
 9. The result of the division operation is an integer, the remainder is discarded.
 10. The result of the calculator with Arabic numbers can be negative numbers and zero. The result of a calculator working with Roman numerals can only be positive numbers; if the result of the work is less than one, the program must indicate an exception.
+
+Example of the program:
+
+Input:
+1+2
+Output:
+3
+
+Input:
+VI/III
+Output:
+II
+
+Input:
+I - II
+Output:
+Error output because there are no negative numbers in the Roman system.
+
+Input:
+I+1
+Output:
+Error output because different number systems are used simultaneously.
+
+Input:
+1
+Output:
+Error output because string is not a mathematical operation.
+
+Input:
+1 + 2 + 3
+Output:
+Error output because the format of the mathematical operation does not satisfy the task - two operands and one operator (+, -, /, *).
