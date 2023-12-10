@@ -19,30 +19,36 @@ Example of the program:
 
 Input:
 1+2
+
 Output:
 3
 
 Input:
 VI/III
+
 Output:
 II
 
 Input:
 I - II
+
 Output:
 Error output because there are no negative numbers in the Roman system.
 
 Input:
 I+1
+
 Output:
 Error output because different number systems are used simultaneously.
 
 Input:
 1
+
 Output:
 Error output because string is not a mathematical operation.
 
 Input:
 1 + 2 + 3
+
 Output:
 Error output because the format of the mathematical operation does not satisfy the task - two operands and one operator (+, -, /, *).
