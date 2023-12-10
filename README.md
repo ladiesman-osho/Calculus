@@ -1,4 +1,4 @@
-# Calculus
+# Project Calculus
 
 Sexy simple calculator
 
